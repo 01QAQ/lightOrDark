@@ -1,0 +1,36 @@
+/*白天模式或者黑夜模式*/
+.main {
+  background-color: $light-bg-main;
+  &-dark {
+    background-color: $dark-bg-main;
+  }
+}
+.menu {
+  background-color: $light-bg-menu;
+  &-dark {
+    background-color: $dark-bg-menu;
+  }
+}
+.gross {
+  background-color: $light-bg-gross;
+  color: $light-font-gross;
+  &-dark {
+    background-color: $dark-bg-gross;
+    color: $dark-font-gross;
+  }
+}
+.divide {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 12px;
+  border-color: $light-border-divide;
+  &-dark {
+    border-color: $dark-border-divide;
+  }
+}
+.titleFont {
+  color: #333;
+  &-dark {
+    color: rgba(255, 255, 255, 0.9);
+  }
+}

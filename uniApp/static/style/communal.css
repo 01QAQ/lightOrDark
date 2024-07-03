@@ -1,0 +1,13 @@
+/*共享的css*/
+/*从左往右垂直居中靠右*/
+.h_center_x_right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+/*水平垂直居中*/
+.h_center_x_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
